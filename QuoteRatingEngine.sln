@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteRatingEngine.API", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteRatingEngine.Core", "src\QuoteRatingEngine.Core\QuoteRatingEngine.Core.csproj", "{47927EB8-2419-4BBE-8A0C-3E3A4D9E80B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteRatingEngine.Repository", "src\QuoteRatingEngine.Repository\QuoteRatingEngine.Repository.csproj", "{940D4D73-D866-487A-A608-183E691FC866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +48,22 @@ Global
 		{47927EB8-2419-4BBE-8A0C-3E3A4D9E80B8}.Release|x64.Build.0 = Release|Any CPU
 		{47927EB8-2419-4BBE-8A0C-3E3A4D9E80B8}.Release|x86.ActiveCfg = Release|Any CPU
 		{47927EB8-2419-4BBE-8A0C-3E3A4D9E80B8}.Release|x86.Build.0 = Release|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Debug|x64.Build.0 = Debug|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Debug|x86.Build.0 = Debug|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Release|x64.ActiveCfg = Release|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Release|x64.Build.0 = Release|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Release|x86.ActiveCfg = Release|Any CPU
+		{940D4D73-D866-487A-A608-183E691FC866}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A4B43040-D9DD-4364-81D0-75CBF8B0BD08} = {4E925D86-51CB-4DF6-9976-009134A67865}
 		{47927EB8-2419-4BBE-8A0C-3E3A4D9E80B8} = {4E925D86-51CB-4DF6-9976-009134A67865}
+		{940D4D73-D866-487A-A608-183E691FC866} = {4E925D86-51CB-4DF6-9976-009134A67865}
 	EndGlobalSection
 EndGlobal
