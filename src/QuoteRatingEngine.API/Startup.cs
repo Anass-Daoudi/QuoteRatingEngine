@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using QuoteRatingEngine.API.Services;
 using QuoteRatingEngine.Repository;
 
 namespace QuoteRatingEngine.API
@@ -21,6 +22,7 @@ namespace QuoteRatingEngine.API
         {
             services.AddControllers();
             services.AddScoped<QuoteRatingEngineContext>();
+            services.AddScoped<IQuoteRatingEngineRepository, QuoteRatingEngineRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
