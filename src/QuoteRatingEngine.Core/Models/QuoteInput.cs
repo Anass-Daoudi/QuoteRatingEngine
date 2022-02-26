@@ -1,3 +1,4 @@
+using System;
 using System.Text.Json.Serialization;
 
 namespace QuoteRatingEngine.Core.Models
@@ -13,6 +14,19 @@ namespace QuoteRatingEngine.Core.Models
         public QuoteInput()
         {
 
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is QuoteInput input &&
+                   Revenue == input.Revenue &&
+                   State == input.State &&
+                   Business == input.Business;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Revenue, State, Business);
         }
     }
 }
