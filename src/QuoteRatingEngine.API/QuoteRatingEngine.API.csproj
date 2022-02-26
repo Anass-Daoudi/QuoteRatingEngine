@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuoteRatingEngine.Core\QuoteRatingEngine.Core.csproj" />
+    <ProjectReference Include="..\QuoteRatingEngine.Repository\QuoteRatingEngine.Repository.csproj" />
   </ItemGroup>
 
 
