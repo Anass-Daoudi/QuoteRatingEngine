@@ -1,10 +1,10 @@
 # Coterie Insure Backend Take-Home Project Solution
 
-## Context:
+## Context
 
 In this project, I've architected and developed a solution, a Web API, for the [Coterie Insure Backend Take-Home Project](https://github.com/CoterieInsure/backend-takehome#readme)
 
-## What I've completed as mandatory tasks:
+## What I've completed as mandatory tasks
 
 - [x] API written in .NET Core
 - [x] API accepts POST and returns data per requirements
@@ -12,12 +12,12 @@ In this project, I've architected and developed a solution, a Web API, for the [
 - [x] Repo README has information about what I'd do next, per requirements
 - [x] Create a new GitHub repo
 
-## What I've completed as a plus from my side:
+## What I've completed as a plus from my side
 
 - [x] I've used Clean Architecture to better architect the API, so every part of it could scale easily and independently from the other ones
 - [x] I've unit and e2e tested every layer of the API
 
-## How to run the API:
+## How to run the API
 
 1. Clone this repository
 2. Open the QuoteRatingEngine folder using Visual Studio Code
