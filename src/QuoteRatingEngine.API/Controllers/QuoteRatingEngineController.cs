@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using QuoteRatingEngine.API.Models;
 using QuoteRatingEngine.API.Services;
 using QuoteRatingEngine.Core.Models;
 using QuoteRatingEngine.Core.Services;
