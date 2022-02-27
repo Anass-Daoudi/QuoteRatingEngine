@@ -31,7 +31,7 @@ After running the API, send a POST request to the link https://localhost:5001/ap
 
 ![Postman Post Request Test](./assets/postman-post-request-test.png)
 
-## How to unit test the API
+## How to unit and e2e test the API
 
 1. Clone this repository
 2. Open the QuoteRatingEngine folder using Visual Studio Code
