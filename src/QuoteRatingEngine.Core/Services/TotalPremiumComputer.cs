@@ -1,9 +1,7 @@
 using System;
-using QuoteRatingEngine.Core.Models;
 
 namespace QuoteRatingEngine.Core.Services
 {
-
     public class TotalPremiumComputer
     {
         private const int _HazardFactor = 4;
