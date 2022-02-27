@@ -36,7 +36,7 @@ After running the API, send a POST request to the link https://localhost:5001/ap
 1. Clone this repository
 2. Open the QuoteRatingEngine folder using Visual Studio Code
 3. Open the built in Visual Studio Code terminal
-4. You should run this command `dotnet test` inside the QuoteRatingEngine foolder
+4. You should run this command `dotnet test` inside the QuoteRatingEngine folder
 
 ## What I would do next
 
