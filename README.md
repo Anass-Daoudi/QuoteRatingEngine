@@ -44,7 +44,7 @@ After running the API, send a POST request to the link https://localhost:5001/ap
 - Add Swagger for documentation and API testing
 - Cash premium result so it is not recomputed for same inputs in other requests. I can use Redis for this optimization purpose
 - Store data, states with state factors, business with business factors, hazard factor in a database, so they could be updated independently from changing the API
-- Add controllers to manipulate data like state, state factor...
+- Add controllers to manipulate data, like state, state factor...
 - Add controllers so client of the API could know available states and businesses in order to make a valid request body input
 - Add Roles to only permit admins to manipulate data like state, state factor and permit a user role to compute premium
 - Add CI and CD workflows to better industrialize the API building, testing, packaging and deployment
